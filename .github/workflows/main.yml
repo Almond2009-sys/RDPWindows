@@ -16,7 +16,7 @@ jobs:
 
     runs-on: windows-latest
 
-    timeout-minutes: 999999
+    timeout-minutes: 9999
 
     
 
@@ -40,4 +40,4 @@ jobs:
 
       - name: Time Counter
 
-        run: Start-Sleep -Seconds 14400
+        run: Start-Sleep -Seconds 604800
